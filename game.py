@@ -110,6 +110,7 @@ def main():
                     if game.check_win(current_player):
                         result = f'Победили {current_player}.'
                         print(result)
+                        print('pook')
                         save_result(result)
                         running = False
                     elif game.is_board_full():
